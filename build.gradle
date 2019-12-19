@@ -70,10 +70,6 @@ publishing {
         maven {
             name = "GitHubPackages"
             url = uri("https://maven.pkg.github.com/ltorbay/grpc-test-publish")
-            credentials {
-                username = "ltorbay"
-                password = "76716af0f6d99498cc70339fe0eff4a87c21ca08"
-            }
         }
     }
     publications {

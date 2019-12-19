@@ -16,6 +16,6 @@ jobs:
           java-version: 1.11
       - name: Build with Gradle
         env:
-          - TAG_AUTHOR: ${{ github.actor }}
-          - GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAG_AUTHOR: ${{ github.actor }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: ./gradlew publish
